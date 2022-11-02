@@ -13,6 +13,14 @@ int main() {
   cin>>N;
 
   const int ARRAY_SIZE = N;
+  int myArray[ARRAY_SIZE];
+  int myNewArray[] = {0};
+
+  cout << "Enter " << N << " integers: ";
+  for(int i = 0; i < ARRAY_SIZE; i ++){
+    cin >> myArray[i];
+  }
+  arraysort(myArray,ARRAY_SIZE,newMAX,newArraySize);
 }
 
 void arraysort(int myArray[], int ARRAY_SIZE, int newMAX, int newArraySize)
