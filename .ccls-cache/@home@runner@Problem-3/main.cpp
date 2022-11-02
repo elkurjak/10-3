@@ -5,10 +5,14 @@ int count = 0;
 
 using namespace std;
 
-using namespace std;
 void arraysort(int myArray[], int ARRAY_SIZE, int newMAX, int newArraySize);
 int main() {
-  
+  int newMAX, newArraySize;
+  int N;
+  cout << "Enter a size: ";
+  cin>>N;
+
+  const int ARRAY_SIZE = N;
 }
 
 void arraysort(int myArray[], int ARRAY_SIZE, int newMAX, int newArraySize)
